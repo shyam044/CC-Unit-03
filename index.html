@@ -5,104 +5,138 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CC Unit-03 - Questions</title>
 <style>
-    * {
-      box-sizing: border-box;
-    }
+  * {
+  box-sizing: border-box;
+}
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
-      font-size: 1rem;
-    }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  font-size: 1rem;
+}
 
-    header {
-      background-color: #0077cc;
-      color: white;
-      padding: 1rem 0.5rem;
-      text-align: center;
-      font-size: 1.5rem;
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
+/* Header styling */
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 
-    .container {
-      max-width: 900px;
-      margin: 2rem auto; /* Added spacing between questions */
-      padding: 1rem;
-      background: white;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-      page-break-after: always;
-    }
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  page-break-after: always;
+}
 
-    h2 {
-      color: #0077cc;
-      margin: 2rem 0 1rem; /* Consistent spacing */
-      font-size: 1.6rem;
-    }
+/* Headings */
+h2 {
+  color: #0077cc;
+  margin: 2rem 0 1rem;
+  font-size: 1.6rem;
+}
 
-    h3 {
-      color: #444;
-      margin-top: 1.2rem;
-      font-size: 1.3rem;
-    }
+h3 {
+  color: #444;
+  margin-top: 0.8rem; /* Reduced from 1.2rem */
+  margin-bottom: 0.5rem; /* Added for consistent spacing */
+  font-size: 1.3rem;
+}
 
-    ul {
-      margin: 0.5rem 0 1rem 1.5rem;
-      padding-left: 1rem;
-    }
+/* Paragraphs */
+p {
+  margin: 0.5rem 0; /* Reduced vertical spacing */
+}
 
-    ul li {
-      margin-bottom: 0.6rem;
-      font-size: 1rem;
-      line-height: 1.5rem;
-    }
+/* Lists */
+ul {
+  margin: 0.3rem 0 1rem 1rem;  /* Reduced left margin */
+  padding-left: 1rem;
+}
 
-    img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin: 1rem auto;
-      border-radius: 6px;
-    }
+li > ul {
+  margin-top: 0.3rem;
+  margin-bottom: 0.6rem;
+  padding-left: 0.7rem;       /* Reduced padding for nested lists */
+}
 
-    @media (max-width: 768px) {
-      body {
-        font-size: 0.95rem;
-      }
+li > ul > li {
+  margin-bottom: 0.4rem;
+}
 
-      header {
-        font-size: 1.3rem;
-        padding: 0.8rem 0.5rem;
-      }
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 6px;
+}
 
-      .container {
-        padding: 0.9rem;
-        margin: 1.5rem auto;
-      }
+/* Responsive styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
 
-      h2 {
-        font-size: 1.3rem;
-        margin-top: 1.8rem;
-      }
+  header {
+    font-size: 1.3rem;
+    padding: 0.8rem 0.5rem;
+  }
 
-      h3 {
-        font-size: 1.1rem;
-      }
+  .container {
+    padding: 0.9rem;
+    margin: 1.5rem auto;
+  }
 
-      ul li {
-        font-size: 0.95rem;
-        line-height: 1.4rem;
-      }
-    }
+  h2 {
+    font-size: 1.3rem;
+    margin-top: 1.8rem;
+  }
 
-    @media print {
-      .container {
-        page-break-after: always;
-      }
-    }
+  h3 {
+    font-size: 1.1rem;
+    margin-top: 0.7rem; /* slightly less on small screens */
+  }
+
+  ul {
+    margin-left: 0.5rem;      /* Reduced margin on mobile */
+    padding-left: 0.7rem;     /* Reduced padding on mobile */
+  }
+
+  li > ul {
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+    padding-left: 0.5rem;     /* Reduced padding for nested ul */
+  }
+
+  li > ul > li {
+    margin-bottom: 0.3rem;
+  }
+
+  ul li {
+    font-size: 0.95rem;
+    line-height: 1.3rem; /* Tighter line height */
+  }
+}
+
+/* Print styles */
+@media print {
+  .container {
+    page-break-after: always;
+  }
+}
+
   </style>
 </head>
 <body>
@@ -275,3 +309,5 @@
 
 </body>
 </html>
+
+
