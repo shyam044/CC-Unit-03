@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CC Unit-03 - Questions</title>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      font-size: 1rem;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1rem 0.5rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto; /* Added spacing between questions */
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      page-break-after: always;
+    }
+
+    h2 {
+      color: #0077cc;
+      margin: 2rem 0 1rem; /* Consistent spacing */
+      font-size: 1.6rem;
+    }
+
+    h3 {
+      color: #444;
+      margin-top: 1.2rem;
+      font-size: 1.3rem;
+    }
+
+    ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+      padding-left: 1rem;
+    }
+
+    ul li {
+      margin-bottom: 0.6rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        font-size: 0.95rem;
+      }
+
+      header {
+        font-size: 1.3rem;
+        padding: 0.8rem 0.5rem;
+      }
+
+      .container {
+        padding: 0.9rem;
+        margin: 1.5rem auto;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin-top: 1.8rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+
+      ul li {
+        font-size: 0.95rem;
+        line-height: 1.4rem;
+      }
+    }
+
+    @media print {
+      .container {
+        page-break-after: always;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CC Unit-03 -->
+  <header>
+    CC Unit-03
+  </header>
+
+  <div class="container">
+    <h2>1) Service Models in Cloud Computing</h2>
+    <p>Cloud Services are divided into three main categories:</p>
+    <ul>
+      <li><strong>IaaS</strong> – Infrastructure as a Service</li>
+      <li><strong>PaaS</strong> – Platform as a Service</li>
+      <li><strong>SaaS</strong> – Software as a Service</li>
+    </ul>
+
+    <!-- IaaS -->
+    <h3>IaaS (Infrastructure as a Service)</h3>
+    <img src="Screenshot 2025-10-16 155017.png" alt="IaaS Diagram" />
+    <ul>
+      <li>IaaS stands for <strong>Infrastructure as a Service</strong></li>
+      <li>IaaS is a Virtual Infrastructure</li>
+      <li>It is Used by network architects and system admins</li>
+      <li>User controls:
+        <ul>
+          <li>Applications</li>
+          <li>Data</li>
+          <li>Runtime</li>
+          <li>Middleware</li>
+          <li>Operating System (OS)</li>
+        </ul>
+      </li>
+      <li>Requires technical knowledge</li>
+      <li><strong>Example:</strong> AWS (Amazon Web Services)</li>
+    </ul>
+
+    <!-- PaaS -->
+    <h3>PaaS (Platform as a Service)</h3>
+    <img src="Screenshot 2025-10-16 155024.png" alt="PaaS Diagram" />
+    <ul>
+      <li>PaaS stands for <strong>Platform as a Service</strong></li>
+      <li>PaaS is an app development platform</li>
+      <li>It is Used by software developers</li>
+      <li>User controls:
+        <ul>
+          <li>Applications</li>
+          <li>Data</li>
+        </ul>
+      </li>
+      <li>Requires some technical knowledge</li>
+      <li><strong>Example:</strong> Google App Engine</li>
+    </ul>
+
+    <!-- SaaS -->
+    <h3>SaaS (Software as a Service)</h3>
+    <img src="Screenshot 2025-10-16 155031.png" alt="SaaS Diagram" />
+    <ul>
+      <li>SaaS stands for <strong>Software as a Service</strong></li>
+      <li>It provides ready-to-use software over the internet</li>
+      <li>It is Used by end-users</li>
+      <li>User controls: <strong>Nothing</strong></li>
+      <li>No technical knowledge required</li>
+      <li><strong>Example:</strong> Gmail</li>
+    </ul>
+  </div>
+
+    <header>
+    CC Unit-03
+  </header>
+
+<div class="container">
+  <h2>2) Key Features and Services provided by AWS, Azure and Google Cloud</h2>
+
+  <h3>AWS:</h3>
+  <ul>
+    <li>AWS stands for Amazon Web Services</li>
+    <li><strong>Key Features:</strong>
+      <ul>
+        <li><strong>Cost Effectiveness:</strong>
+          <ul>
+            <li>Instead of buying external computer hardware or building data centers to store data, users can simply pay rent for storing the data in cloud servers.</li>
+            <li>If you use more, you pay more.</li>
+            <li>If you use less, you pay less.</li>
+          </ul>
+        </li>
+        <li><strong>Scalability:</strong>
+          <ul>
+            <li>The ability of a computing system to handle workloads by adjusting its performance and costs is called scalability.</li>
+            <li>Instead of upgrading the entire system, cloud systems allow you to add more servers to increase scalability.</li>
+          </ul>
+        </li>
+        <li><strong>Availability & Reliability:</strong>
+          <ul>
+            <li>Cloud systems store data at different locations around the world.</li>
+            <li>If one data center fails, the data is still safe in the cloud system, which makes it more reliable and highly available.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><strong>Cloud Services:</strong>
+      <ul>
+        <li>EC2</li>
+        <li>S3</li>
+        <li>EBS</li>
+        <li>SQS</li>
+        <li>SimpleDB</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>Microsoft Azure:</h3>
+  <ul>
+    <li><strong>Key Features:</strong>
+      <ul>
+        <li>Works well with Microsoft tools</li>
+        <li>Provide communication between services</li>
+        <li><strong>Load Balancing:</strong>
+          <ul>
+            <li>It distributes the workloads across multiple servers.</li>
+            <li>Load Balancing Algorithm is mainly of two types:</li>
+            <ul>
+              <li>Static Load Balancing Algorithm</li>
+              <li>Dynamic Load Balancing Algorithm</li>
+            </ul>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><strong>Cloud Services:</strong>
+      <ul>
+        <li>Live Service</li>
+        <li>.NET Service</li>
+        <li>SharePoint Service</li>
+        <li>SQL Azure</li>
+        <li>Azure Tables</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>Google Cloud:</h3>
+  <ul>
+    <li><strong>Key Features:</strong>
+      <ul>
+        <li>Can handle very large volumes of data</li>
+        <li><strong>Scalability:</strong>
+          <ul>
+            <li>The ability of a computing system to handle workloads by adjusting its performance and costs is called scalability.</li>
+            <li>Instead of upgrading the entire system, cloud systems allow you to add more servers to increase scalability.</li>
+          </ul>
+        </li>
+        <li><strong>Availability & Reliability:</strong>
+          <ul>
+            <li>Cloud systems store data at different locations around the world.</li>
+            <li>If one data center fails, the data is still safe in the cloud system, which makes it more reliable and highly available.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><strong>Cloud Services:</strong>
+      <ul>
+        <li>Gmail</li>
+        <li>Google Docs</li>
+        <li>Google Search Engine</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
